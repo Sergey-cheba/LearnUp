@@ -48,6 +48,7 @@ def newAccount(name):
     name.setNickname(input("Введите свой ник "))
     return name
 
+# Геннерирует случайные переменные для хранения новых аккаунтов
 def generate_random_string(length):
     letters = string.ascii_lowercase
     rand_string = ''.join(random.choice(letters) for i in range(length))
